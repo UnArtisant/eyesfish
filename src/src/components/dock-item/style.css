@@ -1,0 +1,9 @@
+.dock-items {
+    width: 64px;
+    height: 64px;
+    outline: solid 1px #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
