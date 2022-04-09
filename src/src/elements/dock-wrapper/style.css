@@ -1,6 +1,6 @@
 .dock-container{
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
     left: 0;
     right: 0;
     display: flex;
@@ -9,4 +9,9 @@
 
 .dock {
  display: flex;
+}
+
+.dock.animated .dock-items{
+    transition: 0.1s;
+    transition-property: transform, transform-origin;
 }
